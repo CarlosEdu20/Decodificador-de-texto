@@ -12,3 +12,9 @@
     <li><strong>Layout responsivo:</strong> O texto criptografado não expande o contêiner de saída; se for muito grande, ele é automaticamente quebrado em linhas.</li>
 </ul>
 
+<h2>Tecnologias utilizadas</h2>
+
+<p>As tecnologias utilizadas foram HTML, CSS e Javascript</p>
+
+<h4>Link do site: https://decodificador-de-texto-edu.netlify.app/</h4>
+
