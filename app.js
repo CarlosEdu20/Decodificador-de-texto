@@ -48,7 +48,7 @@ function validarTexto(texto){
         return true
     }
     else{
-        alert("Texto inválido, Digite apenas letras minúsculas e sem acento")
+        alert("Texto inválido, Digite apenas letras minúsculas, sem pontuação e sem acento")
         return false
     }
 }
