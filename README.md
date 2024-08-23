@@ -5,7 +5,10 @@
 
 <h2>Funcionalidades</h2>
 
-<ul> Criptografia de texto: Converte o texto inserido em uma versão criptografada.
-    Descriptografia de texto: Converte o texto criptografado de volta ao seu formato original. 
-     Botões de copiar: Criação dinâmica de botões de copiar após a criptografia e descriptografia.
-Layout responsivo: O texto criptografado não expande o contêiner de saída; se for muito grande, ele é automaticamente quebrado em linhas.</ul>
+<ul>
+    <li><strong>Criptografia de texto:</strong> Converte o texto inserido em uma versão criptografada.</li>
+    <li><strong>Descriptografia de texto:</strong> Converte o texto criptografado de volta ao seu formato original.</li>
+    <li><strong>Botões de copiar:</strong> Criação dinâmica de botões de copiar após a criptografia e descriptografia.</li>
+    <li><strong>Layout responsivo:</strong> O texto criptografado não expande o contêiner de saída; se for muito grande, ele é automaticamente quebrado em linhas.</li>
+</ul>
+
