@@ -42,7 +42,7 @@ function copiar() {
 }
 
 function validarTexto(texto){
-    let regex = /^[a-z]+$/
+    let regex =  /^[a-z\s]+$/
 
     if (regex.test(texto)){
         return true
