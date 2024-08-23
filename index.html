@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="imagem" src="assets/Logo.svg" alt="alura" title="Logo da alura">
+    </header>
+    
+    <main class="principal">
+        <div class="principal__conteudo">
+            <label class="principal__conteudo__campo">
+                <textarea class="principal__conteudo__campo__texto" placeholder="Digite seu texto" id="input-text"></textarea>
+            </label>
+
+            <div class="principal__conteudo__secao">
+                <section class="principal__conteudo__aviso">
+                    <img src="assets/bi_exclamation-circle-fill.svg">
+                    <p class="principal__conteudo__aviso__texto">Apenas letras minúsculas e sem acento.</p>
+                </section>
+
+                <div class="principal__conteudo__secao__botao">
+                    <button class="principal__conteudo__secao__botao__criptografar" onclick="criptografar()">Criptografar</button>
+                    <button class="principal__conteudo__secao__botao__descriptografar" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteudo__saida">
+            <div class="conteudo__saida__inicial" id="conteudo__saida__inicial">
+                <img class="conteudo__saida__inicial__imagem" src="assets/High quality products 1 1.svg" alt="Pessoa observando um diamante através de uma lupa" title="Uma mulher observando um diamante através de uma lupa">
+                <div class="conteudo__saida__inicial__texto">
+                    <p class="conteudo__saida__inicial__texto__titulo">Nenhuma mensagem encontrada</p>
+                    <p class="conteudo__saida__inicial__texto__longText">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+
+        
+        </div>
+    </main>
+
+ 
+    <script src="app.js"></script>
+</body>
+</html>
