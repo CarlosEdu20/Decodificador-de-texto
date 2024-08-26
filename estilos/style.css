@@ -176,6 +176,14 @@ body{
     font-weight: 400;
     
 }
+.conteudo__saida__inicial h3{
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-cinza-claro);
+    }
 
 .conteudo__saida__inicial__texto{
     width: 80%;
@@ -215,18 +223,44 @@ body{
     background-color: #c2c8cd;
 
 }
+@media (max-width: 1366px){
+    body {
+        padding-right: 0; 
+        gap: 40px; 
+    }
+    .conteudo__saida{
+        padding: 20px;
+        left: -90px;
+        bottom: 0;
+        width: 110%; 
+        height: 100%; 
+        position: relative;
+        top: 100px; 
+        margin-right: 40px;
+    
+
+    }
+    .principal__conteudo__secao{
+        position: relative;
+        right: 85px;
+        width: 100%;
+    }
+       
+  
+}
 
 @media (max-width: 950px) {
     body {
-        padding-right: 0; /* Remover padding lateral */
-        gap: 40px; /* Reduzir o gap */
+        padding-right: 0; 
+        gap: 40px; 
     }
+    
     .conteudo__saida{
         padding: 20px;
         left: 1px;
         bottom: 0;
-        width: 90%; /* Ajustar largura para 100% */
-        height: 100%; /* Ajustar altura automática */
+        width: 90%; 
+        height: 100%; 
         position: relative;
         top: 100px; 
         margin-right: 40px;

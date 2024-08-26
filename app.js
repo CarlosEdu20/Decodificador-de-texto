@@ -38,8 +38,25 @@ function copiar() {
     selection.removeAllRanges();
     selection.addRange(range);
     document.execCommand('copy');
-    alert('Texto copiado');
-}
+
+    let mensagem_copy = "Mensagem copiada!";
+    
+    // Adiciona a mensagem abaixo do texto criptografado
+    let mensagemElemento = document.createElement("h2");
+    mensagemElemento.textContent = mensagem_copy;
+    mensagemElemento.style.marginTop = "10px"; // Ajuste o espaçamento conforme necessário
+
+    let MensagemExiste = document.getElementById("mensagem-copy")
+
+    if (MensagemExiste){
+
+        MensagemExiste.remove()
+        
+    }
+    // Adiciona a mensagem com um ID para futura referência
+    mensagemElemento.id = "mensagem-copy";
+    outInput.appendChild(mensagemElemento);
+    }
 
 function validarTexto(texto){
     let regex =  /^[a-z\s]+$/
@@ -48,7 +65,10 @@ function validarTexto(texto){
         return true
     }
     else{
-        alert("Texto inválido, Digite apenas letras minúsculas, sem pontuação e sem acento")
+        let Texto = textInput.value
+        let textaviso =  Texto
+        textaviso =  "Texto Inválido! <br> Apenas letras minúsculas, sem pontuação e acento "
+        outInput.innerHTML = `<h3 id="output-text">${textaviso}</h3>`;
         return false
     }
 }
